@@ -103,7 +103,11 @@ spring.jpa.properties.hibernate.format_sql=true
 Contributions:
 
 NİKOLA DRLJACA
+
 KAYRA ÜÇKILINÇ
+
 SAFA LEVENTOGLU
+
 DAVUT KULAKSIZ
+
 ÖZGÜR OKUMUŞ
