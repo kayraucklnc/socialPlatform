@@ -1,7 +1,10 @@
 # [Segmentation Fault] - Social Platform App
 
 ![Home](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/home.png?raw=true)
-![Home](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/feed.png?raw=true)
+![Feed](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/feed.png?raw=true)
+![Search](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/search.png?raw=true)
+![Admin](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/admin.png?raw=true)
+![Message](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/message.png?raw=true)
 
 
 ### Package Structure
