@@ -1,5 +1,7 @@
 # [Segmentation Fault] - Social Platform App
 
+## This is a fully functional webpage for a school that was given to us initially as a final project. This is the completed form of that project. Below images are the UI of the webpage and further down the usage guide.
+
 ![Home](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/home.png?raw=true)
 ![Feed](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/feed.png?raw=true)
 ![Search](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/search.png?raw=true)
