@@ -100,7 +100,7 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ----
 
-Contributions:
+## Contributions:
 
 NİKOLA DRLJACA
 
