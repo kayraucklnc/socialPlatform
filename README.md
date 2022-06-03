@@ -1,7 +1,7 @@
 # [Segmentation Fault] - Social Platform App
 
-![Home]([http://url/to/img.png](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/home.png?raw=true))
-![Home]([http://url/to/img.png](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/feed.png?raw=true))
+![Home](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/home.png?raw=true)
+![Home](https://github.com/kayraucklnc/socialPlatform/blob/main/imgs/feed.png?raw=true)
 
 
 ### Package Structure
