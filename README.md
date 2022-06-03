@@ -1,6 +1,5 @@
-# [Segmentation Fault] - LinkedHU_CENG
+# [Segmentation Fault] - Social Platform App
 
-Wow, such a cool project name :)
 
 ### Package Structure
 
@@ -44,14 +43,6 @@ So, we will have global packages that apply generally and packages that are cont
   ```
 
 All business logic will be in the implementation of these methods and the interface allows us to swap implementations without causing distress to other pieces of the codebase.
-
----
-
-***Example Package Structure***
-
-In the example here only one usecase package contains all of the above packages, but all usecase packages will obviously contain them.
-
-![Image of package structure](package_structure.png "Package Structure")
 
 ---
 
@@ -109,6 +100,10 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ----
 
-## General GitHub/Trello workflow
+Contributions:
 
-* 
+NİKOLA DRLJACA
+KAYRA ÜÇKILINÇ
+SAFA LEVENTOGLU
+DAVUT KULAKSIZ
+ÖZGÜR OKUMUŞ
