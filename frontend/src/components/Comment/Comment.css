@@ -1,0 +1,98 @@
+.commentProfilePic {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}
+
+.commentHolder {
+  padding: 14px;
+  display: flex;
+}
+
+.paddingText {
+  padding: 4px;
+  padding-left: 8px;
+}
+
+.commentAuthor {
+  padding-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.commentAuthor:hover {
+  text-decoration: underline;
+}
+
+.likeBtnPassive {
+  padding: 4px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+}
+
+.likeBtnActive {
+  padding: 4px;
+  cursor: pointer;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.likeBtnActive:hover,
+.likeBtnPassive:hover {
+  text-decoration: underline;
+}
+
+.commentBox {
+  border-radius: 8px;
+  background-color: rgb(230, 230, 230);
+  margin-left: 5px;
+  margin-bottom: 8px;
+  padding: 4px;
+  padding-right: 12px;
+}
+
+.commentBox:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.comentBottomOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commmentBoxTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commentTimestamp {
+  color: #666666;
+  margin: 10px;
+}
+
+.commentEditInput {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.commentSaveBtn {
+  color: black;
+  margin-bottom: -20px;
+  padding-left: 5px;
+}
+
+.commentSaveBtn:hover {
+  color: #f50057;
+  cursor: pointer;
+}
+
+.commentEditField {
+  display: flex;
+}
+
+.commentText {
+  overflow-wrap: anywhere;
+}

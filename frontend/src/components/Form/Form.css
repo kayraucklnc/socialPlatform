@@ -1,0 +1,41 @@
+.formContainer {
+  min-width: 500px;
+  backdrop-filter: blur(35px);
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.toHomeContainer {
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.toHomeContainer .toHomeContainerText {
+  margin-right: -4px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fe2f75;
+  visibility: hidden;
+}
+
+.toHomeContainer:hover .toHomeContainerText {
+  visibility: visible;
+  margin-right: 0;
+  transition: all 0.5s;
+}
+
+@media (max-width: 900px) {
+  .formContainer {
+    width: 100vw;
+    position: absolute;
+    padding: 0;
+  }
+}

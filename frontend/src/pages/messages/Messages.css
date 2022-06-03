@@ -1,0 +1,129 @@
+.messages {
+  height: calc(100vh - 70px);
+  display: flex;
+}
+
+.messageMenu {
+  flex: 2;
+}
+
+.messageMenuInput {
+  width: 90%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.messageMenuInput:focus {
+  outline: none;
+}
+
+.messageBox {
+  flex: 6;
+}
+
+.messageBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.messageMenuUsers {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.messageBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.messageBoxTop::-webkit-scrollbar {
+  width: 5px;
+}
+
+.messageBoxBottom {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.messageBoxInput {
+  width: 90%;
+  padding: 1em;
+  resize: none;
+  border-radius: 11px;
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.messageBoxSubmitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #FE2F75;
+  color: white;
+  cursor: pointer;
+}
+
+.messageBoxSubmitButton:hover {
+  filter: brightness(120%);
+}
+
+.messageOnline {
+  flex: 3;
+}
+
+.messageMenuWrapper,
+.messageBoxWrapper,
+.messageOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+.messageMenuWrapper {
+  padding-top: 0;
+}
+
+.messageBoxWrapper {
+  position: relative;
+}
+
+.messageOnlineWrapper {
+}
+
+@media screen and (max-width: 768px) {
+  .messageMenu {
+    flex: 1;
+  }
+
+  .messageMenuInput {
+    display: none;
+  }
+
+  .messageBox {
+    flex: 10;
+  }
+
+  .messageOnline {
+    flex: 1px;
+  }
+}
+
+.noConversation {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  color: rgb(202, 192, 192);
+  text-align: center;
+  cursor: default;
+}

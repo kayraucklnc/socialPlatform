@@ -1,0 +1,120 @@
+.navbarContainer {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(254, 47, 117, 1) 0%,
+    rgba(254, 111, 94, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logoContainer {
+  display: flex;
+  margin-left: 20px;
+}
+
+.navbarLogo {
+  cursor: pointer;
+  width: 25px;
+}
+
+.navbarLeft {
+  flex: 3;
+}
+
+.navbarCenter {
+  flex: 5;
+}
+
+.navbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+
+.navbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbarIcons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.infoNavbarIcons{
+  border: 50%;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.infoNavbarIcons:hover {
+  background-color: rgb(254, 47, 117);
+  cursor: pointer;
+}
+
+.homeNavbarIcon {
+  cursor: pointer;
+  color: white;
+}
+
+
+.homeNavbarIcon:hover {
+}
+
+.navbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.navbarProfilePicture {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.profileArea{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  height: 35px;
+}
+
+.profileArea:hover{
+  background-color: rgb(254, 47, 117);
+  cursor: pointer;
+}
+
+.profileAreaText{
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,23 @@
+.feed {
+  flex: 6;
+}
+
+.feedWrapper {
+  padding: 20px;
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.searchInfo{
+  font-size: 22px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  border-color: rgba(56,56,56,0.6);
+  padding-bottom: 6px;
+  margin-bottom: 40px;
+}

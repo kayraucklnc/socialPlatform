@@ -1,0 +1,190 @@
+.announcementContainer {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.announcementImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.announcementText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.announcementBody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  align-items: flex-start;
+}
+
+.announcementBody h4 {
+  font-size: 16px;
+  margin-right: 0;
+  font-weight: 600;
+  color: #666666;
+  cursor: pointer;
+}
+
+.announcement {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.announcementWrapper {
+  padding: 10px;
+}
+
+.announcementTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.announcementTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.announcementProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.announcementUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.announcementDate {
+  font-size: 12px;
+}
+
+.announcementCenter {
+  margin: 20px 0;
+  display: grid;
+}
+
+.announcementImg {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.announcementBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.announcementBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.announcementLikeCounter {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.announcementCommentText {
+  cursor: pointer;
+  border-bottom: 2px dashed gray;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.announcementTitle {
+  font-weight: bold;
+  font-size: 20px !important;
+  margin: 5px 10px 5px 10px;
+}
+
+.announcementText {
+  font-size: 16px;
+  margin: 5px 10px 5px 10px;
+}
+
+.announcementOptionsBtn {
+  cursor: pointer;
+}
+
+.announcementOptionsBtn:hover {
+  color: #ff6a6b;
+}
+
+.editInput {
+  width: 80%;
+  font-size: 17px;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: #ff6a6b;
+  border-radius: 0;
+  transition-duration: 0.3s;
+  color: darkgray;
+}
+
+.editInput:focus {
+  outline: none;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  border-color: rgb(112, 237, 185);
+  color: black;
+}
+
+.sidebarAnnouncement {
+  font-weight: bold;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidebarAnnouncementContent {
+  padding-left: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sidebarAnnouncementContent-enter {
+  overflow: hidden;
+  max-height: 0;
+}
+.sidebarAnnouncementContent-enter-active {
+  overflow: hidden;
+  max-height: 100px;
+  transition: all 500ms ease;
+}
+
+.sidebarAnnouncementContent-exit {
+  overflow: hidden;
+  max-height: 100px;
+}
+
+.sidebarAnnouncementContent-exit-active {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 500ms ease;
+}

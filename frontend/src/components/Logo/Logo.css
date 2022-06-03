@@ -1,0 +1,17 @@
+.logo {
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  margin-right: 25px;
+}
+
+.logoSVG{
+  width: 75px;
+}
+
+h3 {
+  margin-top: 50px;
+  color: #ff8d8d;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+}

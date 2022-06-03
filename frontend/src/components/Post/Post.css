@@ -1,0 +1,208 @@
+.post {
+  width: 100%;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.3);
+  margin: 30px 0;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.postDate {
+  font-size: 12px;
+}
+
+.postCenter {
+  margin: 20px 0;
+  display: grid;
+}
+
+.invalidEdit {
+  margin-left: 10px;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postLikeCounter {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.postCommentText {
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #666666;
+  display: inline-flex;
+}
+
+.postCommentText:hover{
+  border-bottom: 2px solid #666666;
+}
+
+.createComment{
+  height: 40px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.createComment-enter {
+  overflow: hidden;
+  max-height: 0;
+}
+.createComment-enter-active {
+  overflow: hidden;
+  max-height: 70px;
+  transition: all 500ms ease;
+}
+
+.createComment-exit {
+  overflow: hidden;
+  max-height: 70px;
+}
+
+.createComment-exit-active {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 400ms ease;
+  
+}
+
+.postTitle {
+  font-weight: bold;
+  font-size: 20px !important;
+  margin-bottom: 10px;
+  margin: 5px 10px 5px 10px;
+}
+
+.postText {
+  font-size: 16px;
+  margin: 5px 10px 5px 10px;
+}
+
+.postOptionsBtn {
+  cursor: pointer;
+}
+
+.postOptionsBtn:hover {
+  color: #ff6a6b;
+}
+
+.editInput {
+  width: 80%;
+  font-size: 17px;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: #ff6a6b;
+  border-radius: 0;
+  transition-duration: 0.3s;
+  color: darkgray;
+}
+
+.editInput:focus {
+  outline: none;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  border-color: rgb(112, 237, 185);
+  color: black;
+}
+
+.allComments {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadMoreText {
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+}
+
+.loadMoreText:hover {
+  text-decoration: underline;
+}
+
+.commentSendIcon{
+  float: right;
+  cursor: pointer;
+  margin: 5px;
+  color: #666666;
+}
+
+.commentSendIcon:hover{
+  color: cornflowerblue;
+}
+
+.commentInput {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  width: 90%;
+  flex-grow: 1;
+  font-size: 17px;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: #ff6a6b;
+  border-radius: 0;
+  transition-duration: 0.3s;
+  color: darkgray;
+}
+
+.commentInput:focus {
+  outline: none;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  border-color: rgb(112, 237, 185);
+  color: black;
+}

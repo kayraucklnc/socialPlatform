@@ -1,4 +1,4 @@
-# [Segmentation Fault] - Social Platform
+# [Segmentation Fault] - LinkedHU_CENG
 
 Wow, such a cool project name :)
 

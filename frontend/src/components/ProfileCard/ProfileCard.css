@@ -1,0 +1,87 @@
+.userCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.userCardSmall {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.userCardSmallProfilePic {
+  width: 65px !important;
+  height: 65px !important;
+}
+
+.cardProfilePic {
+  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.profileCardMiddle {
+  margin-left: 12px;
+}
+
+.profileCardUsernameHolder {
+  display: flex;
+  align-items: center;
+}
+
+.cardStars {
+  margin-left: 8px;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.cardUserName {
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.cardUserNameSmall {
+  box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 30%) !important;
+}
+
+.cardUserNameSmall,
+.cardUserNameSmall:hover {
+  font-size: 15px !important;
+  padding: 2px;
+}
+
+.cardUserNameSmall:hover {
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 30%) !important;
+  outline: 2px solid rgb(150, 150, 150);
+  outline-offset: -2px;
+}
+
+.cardUserName:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cardName {
+  color: black;
+}
+
+.cardAbout {
+  font-weight: 300;
+}
+
+.cardFollowButton {
+  margin-left: auto;
+}
+
+.followTitle{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 -30px 20px;
+}

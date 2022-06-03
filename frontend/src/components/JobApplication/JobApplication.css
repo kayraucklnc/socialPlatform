@@ -1,0 +1,66 @@
+.application{
+  margin-bottom: 5px;
+}
+
+.applicationBody{
+  display: inline-flex;
+  align-items: center;
+}
+
+.applicationBox{
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.applicationProfilePic {
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
+}
+
+.applicationAuthor {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+.applicationAuthor:hover {
+  text-decoration: underline;
+}
+
+.downloadResume{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-flex;
+  color: black;
+}
+
+.downloadResume:hover{
+  color: rgb(0, 111, 222);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.extraNotes{
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+.deleteBtnPassive{
+  padding: 4px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+  margin-left: 65px;
+}
+
+.deleteBtnPassive:hover{
+  text-decoration: underline;
+}

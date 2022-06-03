@@ -1,0 +1,16 @@
+.ratingStar{
+  transform: scale(1.5);
+  margin: 4px;
+  cursor: pointer;
+  color: #f12b6d;
+}
+
+.ratingStarBorder{
+  fill: none;
+  stroke: #f12b6d;
+  stroke-width: 1.5px;
+  stroke-linejoin: inherit;
+  color: white;
+  transform: scale(1.26);
+  margin: 4px;
+}

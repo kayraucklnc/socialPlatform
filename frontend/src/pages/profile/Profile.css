@@ -1,0 +1,284 @@
+.profile {
+  display: flex;
+}
+
+.profileFeed{
+ flex: 6 1;
+}
+
+.profileRight {
+  flex: 9;
+}
+
+.profileCover {
+  height: 320px;
+  position: relative;
+}
+
+.profileCoverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileRateStars {
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  right: 0;
+  margin: auto;
+  bottom: 30px;
+}
+
+.profileRating {
+  display: inline-flex;
+  position: absolute;
+  left: 240px;
+  right: 0;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  top: 280px;
+  width: 100px;
+}
+
+.profileRateCurrentStar {
+  transform: scale(1.5);
+  margin: 4px;
+  color: #f5c411;
+}
+
+.profileRate {
+  margin: 4px;
+}
+
+.profileMaxRate {
+  margin: 4px 0 0 0;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.followArea {
+  position: absolute;
+  right: 300px;
+  margin: auto;
+  top: 232px;
+}
+
+.downloadUserInfo {
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  margin: auto;
+  bottom: 25px;
+}
+
+.download-icon {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.download-icon:hover {
+  background-color: rgb(112, 237, 185);
+}
+
+.likeText {
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 170px;
+  border: 5px solid white;
+}
+
+.aboutIcons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  top: 300px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoIcons {
+  align-self: flex-end;
+  border: 50%;
+  background-color: #242526;
+  border: 3px solid #242526;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.infoIcons:hover {
+  border: 3px solid #525357;
+  background-color: #525357;
+  cursor: pointer;
+}
+
+.dropDownIcon {
+  object-fit: cover;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.homeIcon {
+  object-fit: cover;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.homeIcon:hover {
+  color: #FE2F75;
+}
+  
+.reportDetails {
+  display: none;
+  border-radius: 22px 0px 22px 22px;
+  padding: 22px;
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  width: 380px;
+  height: 140px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.reportInput {
+  background-color: white;
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  margin-left: 12px;
+  font-size: 17px;
+  border-width: 0px;
+  border-bottom-width: 4px;
+  border-color: #ff6a6b;
+  border-radius: 0;
+  transition-duration: 0.4s;
+}
+
+.reportInput:focus {
+  outline: none;
+  border-radius: 10px;
+  border-color: darkseagreen;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.reportButton {
+  align-self: center;
+  background-color: darkred;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileInfoDesc {
+  font-weight: 600;
+  color: #666666;
+  margin-top: 0.5rem;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.aboutInput {
+  display: block;
+  font-weight: 600;
+  color: #666666;
+  margin-top: 0.5rem;
+  font-size: 16px;
+  padding: 0;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: #ff6a6b;
+  text-align: center;
+  min-width: 200px;
+}
+
+.aboutInput:focus {
+  outline: none;
+}
+
+.bar {
+  position: relative;
+  display: block;
+}
+
+.bar:before,
+.bar:after {
+  content: "";
+  height: 3px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: rgb(112, 237, 185);
+  transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.profileRightBottom {
+  display: flex;
+  margin-right: 0rem;
+  margin-left: 15rem;
+}
+
+.profileSidebar {
+  margin-left: -240px;
+  width: 25%;
+  min-width: 250px;
+  flex: 3 1;
+}
+
+
+.profile-snackbar{
+  margin-top: 26px;
+}

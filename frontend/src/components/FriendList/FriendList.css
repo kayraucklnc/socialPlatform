@@ -1,0 +1,13 @@
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebarFriendList{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}

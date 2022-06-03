@@ -1,0 +1,30 @@
+.followWrapper{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 35px;
+    justify-content: center;
+    background-color: rgb(254, 47, 117);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: 120px;
+    color: white;
+}
+
+.followWrapper:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+.followText {
+    padding-left: 0.5rem;
+}
+
+.followed {
+    background-color: #AAAAAA;
+}
+
+.unfollowed {
+    background-color: rgb(254, 47, 117);
+}

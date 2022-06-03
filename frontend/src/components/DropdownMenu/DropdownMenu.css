@@ -1,0 +1,92 @@
+.dropdown {
+  position: absolute;
+  right: 20px;
+  top: 46px;
+  width: 300px;
+  background-color: #242526;
+  border: 1px solid #474a4d;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: height 500ms ease;
+  color: white;
+}
+
+.menu {
+  width: 100%;
+}
+
+.profilePhotoLink {
+  cursor: pointer;
+}
+.bannerPhotoLink {
+  cursor: pointer;
+}
+
+.linkText {
+  border: none;
+  background-color: #242526;
+  color: white;
+  font-size: 16px;
+  
+}
+
+.linkText:focus {
+  outline: none;
+}
+
+.menuItem {
+  padding-left: 0.5rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  transition: #242526 500ms;
+}
+
+.menuItem .iconButton {
+  margin-right: 0.5rem;
+}
+
+.menuItem .iconButton:hover {
+  filter: none;
+}
+
+.menuItem:hover {
+  background-color: #525357;
+}
+
+.iconRight {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all 500ms ease;
+}
+
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-secondary-exit {
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all 500ms ease;
+}
